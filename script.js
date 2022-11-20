@@ -49,5 +49,25 @@ var myAC = myA + myC;
 console.log(`myAC = ${myAC}`);
 console.log(`myAC data type is ${typeof myAC}`);
 
+console.log(`---------------------------------`);
+console.log(`Iterating over an Array`);
+
+var kittyArray = ["Gibbs", "Deckster", "Harry Catnip Jr", "Jayda", "Shiva", "Bahamut", "Jackson"];
+
+for (i=0; i < kittyArray.length; i++) {
+    console.log(`Index ${i}: ${kittyArray[i]}`);
+}
+
+console.log(`---------------------------------`);
+console.log(`Finding the longest string in an array`);
+
+var longestName = "";
+for (i=0; i < kittyArray[i].length; i++) {
+    if (kittyArray[i].length > longestName) {
+        longestName = kittyArray[i];
+    }
+}
+
+console.log(`${longestName} is the longest name!`);
 
 
