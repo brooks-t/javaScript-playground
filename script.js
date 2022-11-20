@@ -62,8 +62,8 @@ console.log(`---------------------------------`);
 console.log(`Finding the longest string in an array`);
 
 var longestName = "";
-for (i=0; i < kittyArray[i].length; i++) {
-    if (kittyArray[i].length > longestName) {
+for (i=0; i < kittyArray.length; i++) {
+    if (kittyArray[i].length > longestName.length) {
         longestName = kittyArray[i];
     }
 }
