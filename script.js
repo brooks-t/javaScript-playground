@@ -171,3 +171,55 @@ console.log(planets);
 
 console.log(planets.splice(3,2,"Alpha", "Beta", "Delta"));
 console.log(planets);
+
+console.log(planets.splice(3,1));
+console.log(planets);
+
+console.log(planets.slice(2));
+console.log(planets);
+
+var newPlanets = planets.slice(2);
+console.log(newPlanets);
+
+var newSpaceDust = spaceDust.slice(2,6);
+console.log(newSpaceDust);
+console.log(spaceDust);
+
+console.log(spaceDust);
+console.log(spaceDust.sort());
+console.log(spaceDust);
+
+console.log(newSpaceDust.toString());
+console.log(newSpaceDust);
+
+var stringSpaceDust = newSpaceDust.toString();
+console.log(`I am a newly converted string: ${stringSpaceDust}.`);
+
+console.log(`================================================`);
+console.log(spaceDust);
+console.log(spaceDust.reverse());
+console.log(spaceDust);
+
+console.log(`---------------------------`);
+console.log(`Remember that the sort() method sorts values as strings which works well for stuff like Apple vs Banana, but not so much for numeric values`);
+
+var points = [40, 100, 1, 5, 25, 10];
+console.log(points);
+
+console.log(points.sort());
+console.log(points);
+
+console.log(points.sort(function(a,b){return a - b}));
+console.log(points);
+
+console.log(points.sort(function(a,b){return b - a}));
+console.log(points);
+
+console.log(`RANDOM SORT: ${points.sort(function(){return 0.5 - Math.random()})}`);
+console.log(`------------------------------------------`)
+console.log(points);
+console.log(points.sort(function(a,b){return a - b}));
+console.log(`${points[0]} is the lowest value`);
+console.log(`${points[points.length-1]} is the highest value`);
+console.log(`-------------------------------------------`)
+
