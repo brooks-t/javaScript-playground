@@ -107,3 +107,32 @@ function declareHelloKittyAgain(x,y,z) {
 }
 
 declareHelloKittyAgain("Deckster", "Gibbs", "Wendel");
+
+var expressHelloKittyAgain = function(x,y,z) {
+    console.log(`I will now express my Hello's to ${x}, ${y}, and ${z}`);
+}
+
+expressHelloKittyAgain("Jada", "Henry", "Catnip");
+
+function areTheyEqual(x,y) {
+    if (x===y) {
+        console.log(`They are equal in type and value`);
+    } else if (x==y) {
+        console.log(`They are equal in value`);
+    } else {
+        console.log(`They are not equal`);
+    }
+}
+var expressAreTheyEqual = function(x,y) {
+    if (x===y) {
+        console.log(`They are equal in type and value`);
+    } else if (x==y) {
+        console.log(`They are equal in value`);
+    } else {
+        console.log(`They are not equal`);
+    }
+}
+
+areTheyEqual(10,10);
+expressAreTheyEqual(10, true);
+
