@@ -136,3 +136,16 @@ var expressAreTheyEqual = function(x,y) {
 areTheyEqual(10,10);
 expressAreTheyEqual(10, true);
 
+console.log(`---------------------------------`);
+console.log(`METHODS`);
+console.log(`---------------------------------`);
+
+var constellations = ["Orion", "Scorpius", "Lyra", "Ursa Major", "Ursa Minor"];
+var planets = ["Earth", "Saturn", "Mars", "Jupiter", "Uranus", "Venus"];
+var star = "polaris";
+
+console.log(planets);
+console.log(planets.pop());
+console.log(planets);
+console.log(planets.push("Klendathu"));
+console.log(planets);
