@@ -145,7 +145,29 @@ var planets = ["Earth", "Saturn", "Mars", "Jupiter", "Uranus", "Venus"];
 var star = "polaris";
 
 console.log(planets);
+
 console.log(planets.pop());
 console.log(planets);
+
 console.log(planets.push("Klendathu"));
+console.log(planets);
+
+console.log(planets.shift());
+console.log(planets);
+
+console.log(planets.unshift("Mercury"));
+console.log(planets);
+
+planets[planets.length] = "Pluto";
+console.log(planets);
+
+var spaceDust = constellations.concat(planets);
+console.log(constellations);
+console.log(planets);
+console.log(spaceDust);
+
+console.log(planets.splice(3, 0, "Sol", "Pav"));
+console.log(planets);
+
+console.log(planets.splice(3,2,"Alpha", "Beta", "Delta"));
 console.log(planets);
