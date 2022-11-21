@@ -54,6 +54,9 @@ console.log(`Iterating over an Array`);
 
 var kittyArray = ["Gibbs", "Deckster", "Harry Catnip Jr", "Jayda", "Shiva", "Bahamut", "Jackson"];
 
+console.log(kittyArray);
+console.log(`kittyArray length: ${kittyArray.length}`);
+
 for (i=0; i < kittyArray.length; i++) {
     console.log(`Index ${i}: ${kittyArray[i]}`);
 }
@@ -70,4 +73,37 @@ for (i=0; i < kittyArray.length; i++) {
 
 console.log(`${longestName} is the longest name!`);
 
+console.log(`---------------------------------`);
+console.log(`Evaluating expressions in variables`);
 
+var price = 100;
+var expression1 = (price < 100);
+var expression2 = (price > 100);
+
+if(expression1) {
+    console.log("True");
+} else if (!expression1) {
+    console.log("False");
+}
+
+console.log(`---------------------------------`);
+console.log(`FUNCTIONS`);
+console.log(`---------------------------------`);
+
+function declareHelloKitty() {
+    console.log("This function says: Hello, Kitty!");
+}
+
+declareHelloKitty();
+
+var helloKittyExpression = function() {
+    console.log("This is a function expression that says: Hello, Kitty!");
+}
+
+helloKittyExpression();
+
+function declareHelloKittyAgain(x,y,z) {
+    console.log(`Hello kitty. My kitty parameter values are ${x}, ${y}, and ${z}`);
+}
+
+declareHelloKittyAgain("Deckster", "Gibbs", "Wendel");
