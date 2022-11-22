@@ -237,6 +237,12 @@ var catObject = {
     ],
     meowFunc: function() {
         console.log("Meow!")
+    },
+    thisFunc: function() {
+        console.log(this);
+    },
+    foodFunc: function() {
+        console.log(this.favFood);
     }
 };
 
@@ -245,4 +251,17 @@ console.log(catObject.name);
 console.log(catObject.age);
 console.log(catObject.alive);
 console.log(catObject.owners[0]);
-console.log(catObject.meowFunc());
+catObject.meowFunc();
+
+catObject.furColor = "Black";
+catObject.lastName = "Tiffany";
+
+console.log(catObject);
+
+if (catObject.owners.includes("Brooks")) {
+    console.log(`Yes! Brooks is an owner!`);
+}
+
+console.log(this);
+catObject.thisFunc();
+catObject.foodFunc();
