@@ -223,3 +223,26 @@ console.log(`${points[0]} is the lowest value`);
 console.log(`${points[points.length-1]} is the highest value`);
 console.log(`-------------------------------------------`)
 
+console.log(`-------------------------------------------\nOBJECTS\n-------------------------------------------`);
+
+var catObject = {
+    name: "Deckster",
+    age: 12,
+    weight: 15,
+    alive: false,
+    favFood: "Shreds",
+    owners: [
+        "Brooks",
+        "Hannah"
+    ],
+    meowFunc: function() {
+        console.log("Meow!")
+    }
+};
+
+console.log(catObject);
+console.log(catObject.name);
+console.log(catObject.age);
+console.log(catObject.alive);
+console.log(catObject.owners[0]);
+console.log(catObject.meowFunc());
