@@ -48,3 +48,6 @@ gibbsFavTitle.textContent = "Gibbs Top List";
 
 var gibbsFriend = document.getElementById("gibbs-friend");
 gibbsFriend.setAttribute("src", "https://placekitten.com/g/200/200");
+
+var gibbsOtherFriend = document.getElementById("gibbs-other-friend");
+gibbsOtherFriend.setAttribute("src", "https://placekitten.com/g/300/300");
