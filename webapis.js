@@ -48,3 +48,11 @@ gibbsFavTitle.textContent = "Gibbs Top List";
 
 var gibbsFriend = document.getElementById("gibbs-friend");
 gibbsFriend.setAttribute("src", "https://placekitten.com/g/200/200");
+
+var newHeadline = document.createElement("h1");
+document.body.appendChild(newHeadline);
+newHeadline.textContent = "New Headline";
+
+alert("Hello there!");
+
+prompt("What would you like to do today?");
