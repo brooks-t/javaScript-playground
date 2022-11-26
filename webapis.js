@@ -49,7 +49,6 @@ gibbsFavTitle.textContent = "Gibbs Top List";
 var gibbsFriend = document.getElementById("gibbs-friend");
 gibbsFriend.setAttribute("src", "https://placekitten.com/g/200/200");
 
-<<<<<<< HEAD
 var newHeadline = document.createElement("h1");
 document.body.appendChild(newHeadline);
 newHeadline.textContent = "New Headline";
@@ -57,7 +56,5 @@ newHeadline.textContent = "New Headline";
 alert("Hello there!");
 
 prompt("What would you like to do today?");
-=======
 var gibbsOtherFriend = document.getElementById("gibbs-other-friend");
 gibbsOtherFriend.setAttribute("src", "https://placekitten.com/g/300/300");
->>>>>>> b8ca88e50f9e56450ed5b6b5f08da38223e3e883
